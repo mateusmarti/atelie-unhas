@@ -6,3 +6,11 @@
 
     background-color: deeppink;
 }
+.zoom {
+    transition: transform, 1s;
+}
+
+.zoom:hover {
+    transform: scale(1.06544154);
+    transition: transform, 1s;
+}
